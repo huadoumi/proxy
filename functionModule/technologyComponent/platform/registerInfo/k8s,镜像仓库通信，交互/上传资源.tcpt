@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>1711B65F6818600399958E5FAE4F3DC9</UUID>
+  <Target>tc.platform.k8s.P_Communication.P_uploadResource</Target>
+  <Desp>上传资源</Desp>
+  <Group>k8s,镜像仓库通信，交互</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip></ToolTip>
+  <InArgs>
+    <Total>5</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>podInfoList</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>pod信息列表</Desc>
+    </Arg>
+    <Arg>
+      <Name>aarPath</Name>
+      <Type>java.lang.String</Type>
+      <Desc>上传资源包的完整路径</Desc>
+    </Arg>
+    <Arg>
+      <Name>restart</Name>
+      <Type>java.lang.String</Type>
+      <Desc>是否重启</Desc>
+    </Arg>
+    <Arg>
+      <Name>autostart</Name>
+      <Type>java.lang.String</Type>
+      <Desc>是否自启</Desc>
+    </Arg>
+    <Arg>
+      <Name>groupName</Name>
+      <Type>java.lang.String</Type>
+      <Desc>工作组名称</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>rspDict</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>rspDict</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/k8s/P_Communication.java</Path>
+</Component>

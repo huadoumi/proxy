@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>58F468A6354DA4C2750F1AF77D44A246</UUID>
+  <Target>tc.platform.P_String.createStr</Target>
+  <Desp>格式化字符串创建</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>使用分隔符和修饰符创建字符串</ToolTip>
+  <InArgs>
+    <Total>4</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>strList</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>输入字符串列表</Desc>
+    </Arg>
+    <Arg>
+      <Name>sep</Name>
+      <Type>java.lang.String</Type>
+      <Desc>分割标识字符</Desc>
+    </Arg>
+    <Arg>
+      <Name>leftDes</Name>
+      <Type>java.lang.String</Type>
+      <Desc>左侧修饰符</Desc>
+    </Arg>
+    <Arg>
+      <Name>rightDes</Name>
+      <Type>java.lang.String</Type>
+      <Desc>右侧修饰符</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>outStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>创建后的字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

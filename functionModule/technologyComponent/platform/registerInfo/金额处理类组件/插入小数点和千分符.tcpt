@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>65311D3CC0D55586CA6642472B0EE436</UUID>
+  <Target>tc.platform.P_Amount.insertDotComma</Target>
+  <Desp>插入小数点和千分符</Desp>
+  <Group>金额处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>对给定金额字符串中插入小数点和千分符,字符串中不能有小数点或者千分符,有的话则处理失败</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>instr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>输入字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>position</Name>
+      <Type>int</Type>
+      <Desc>小数点位置</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>outstr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>插入小数点和千分符的字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>插入失败</RET0>
+    <RET1>插入成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_Amount.java</Path>
+</Component>

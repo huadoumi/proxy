@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>CE26C3C6CBC907BD0CDCDDA1AA55630A</UUID>
+  <Target>tc.platform.P_Amount.isAmountZero</Target>
+  <Desp>判断金额字符串是否为零</Desp>
+  <Group>金额处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>对指定的币种和金额格式化的金额字符串进行判断,暂只支持人民币,
+ 如果传入的金融字符串为None或空字符串则返回成功</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>currency</Name>
+      <Type>java.lang.String</Type>
+      <Desc>币种/None</Desc>
+    </Arg>
+    <Arg>
+      <Name>instr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>金融字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>format</Name>
+      <Type>java.lang.String</Type>
+      <Desc>金额格式(Point/NoPoint)</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>3</Total>
+    <RET0>不是金融字符串</RET0>
+    <RET1>等于零</RET1>
+    <RET2>不等于零</RET2>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_Amount.java</Path>
+</Component>

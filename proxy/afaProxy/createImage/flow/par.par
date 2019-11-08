@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceArg>
+	
+  
+  <UUID>172507D907714C9BB38911CB9DF034DF</UUID>
+	
+  
+  <InArg/>
+	
+  
+  <OutArg/>
+  <ServiceName>createImage</ServiceName>
+  <ServiceDesc>打镜像</ServiceDesc>
+  <JarName>afaProxy.createImage.jar</JarName>
+  <MainClass>afaProxy.createImage.TcreateImage</MainClass>
+</ServiceArg>

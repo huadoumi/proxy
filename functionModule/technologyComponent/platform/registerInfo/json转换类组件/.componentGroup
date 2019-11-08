@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Flag>
+	
+  <Version>1.0.0</Version>
+	
+  <Name/>
+	
+  <Desc>json形式字符串与javaBean，字典等之间的转换</Desc>
+</Flag>

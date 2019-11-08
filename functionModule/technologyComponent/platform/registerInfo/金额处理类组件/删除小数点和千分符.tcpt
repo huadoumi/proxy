@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>0F248A70829B9055E1C79102A1D83958</UUID>
+  <Target>tc.platform.P_Amount.deleteDotComma</Target>
+  <Desp>删除小数点和千分符</Desp>
+  <Group>金额处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>删除给定金额字符串中的小数点和千分符,小数点精度精确到2位,多余位数四舍五入,如果字符串无小数点则后补2个0</ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>instr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>输入字符串</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>outstr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>去掉小数点和千分符的字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>删除失败</RET0>
+    <RET1>删除成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_Amount.java</Path>
+</Component>

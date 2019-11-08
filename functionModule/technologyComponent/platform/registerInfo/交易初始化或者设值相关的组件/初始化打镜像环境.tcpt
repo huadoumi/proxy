@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>7E5BDFA40F54CD0FD4A3827A302DF5D4</UUID>
+  <Target>tc.platform.k8s.P_Init.P_createInit</Target>
+  <Desp>初始化打镜像环境</Desp>
+  <Group>交易初始化或者设值相关的组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>初始化打镜像环境: 解压缩arr包, 删除aar包</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>projectAarName</Name>
+      <Type>java.lang.String</Type>
+      <Desc>项目aar包名</Desc>
+    </Arg>
+    <Arg>
+      <Name>shareAarName</Name>
+      <Type>java.lang.String</Type>
+      <Desc>组件aar包名</Desc>
+    </Arg>
+    <Arg>
+      <Name>resPath</Name>
+      <Type>java.lang.String</Type>
+      <Desc>上传资源路径</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/k8s/P_Init.java</Path>
+</Component>

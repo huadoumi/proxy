@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceArg>
+	
+  
+  <UUID>ABE264F008DB4CD1B4EFF791A8B2D3D5</UUID>
+	
+  
+  <InArg/>
+	
+  
+  <OutArg/>
+  <ServiceName>queryImageTagList</ServiceName>
+  <ServiceDesc>查询镜像的历史版本</ServiceDesc>
+  <JarName>afaProxy.queryImageTagList.jar</JarName>
+  <MainClass>afaProxy.queryImageTagList.TqueryImageTagList</MainClass>
+</ServiceArg>

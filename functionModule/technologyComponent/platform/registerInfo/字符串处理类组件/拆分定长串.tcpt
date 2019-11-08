@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>78EC7C28A356D519056B28D834A68AE7</UUID>
+  <Target>tc.platform.P_String.splitFixData</Target>
+  <Desp>拆分定长串</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>将定长串按指定格式拆分到字典容器</ToolTip>
+  <InArgs>
+    <Total>6</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>fixData</Name>
+      <Type>java.lang.String</Type>
+      <Desc>定长串</Desc>
+    </Arg>
+    <Arg>
+      <Name>fixLen</Name>
+      <Type>int</Type>
+      <Desc>每条长度</Desc>
+    </Arg>
+    <Arg>
+      <Name>lenFmt</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>长度格式</Desc>
+    </Arg>
+    <Arg>
+      <Name>dataFmt</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>数据域</Desc>
+    </Arg>
+    <Arg>
+      <Name>typeFmt</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>数据域类型(String|Number|Decimal|Amount|Integer)</Desc>
+    </Arg>
+    <Arg>
+      <Name>dataContext</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>扩展字典</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceArg>
+	
+  
+  
+  
+  <UUID>101A40C969294816B2085AED6455C0DF</UUID>
+	
+  
+  
+  
+  <InArg/>
+	
+  
+  
+  
+  <OutArg/>
+  
+  
+  <ServiceName>queryNamespaces</ServiceName>
+  
+  
+  <ServiceDesc>查询k8s所有namespace</ServiceDesc>
+  
+  
+  <JarName>afaProxy.queryNamespaces.jar</JarName>
+  
+  
+  <MainClass>afaProxy.queryNamespaces.TqueryNamespaces</MainClass>
+</ServiceArg>

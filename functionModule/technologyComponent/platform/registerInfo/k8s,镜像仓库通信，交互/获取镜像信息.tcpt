@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>24704F98C4DA0A4C1379D1831BE8292C</UUID>
+  <Target>tc.platform.k8s.P_Communication.P_getImagesInfo</Target>
+  <Desp>获取镜像信息</Desp>
+  <Group>k8s,镜像仓库通信，交互</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>获取镜像信息</ToolTip>
+  <InArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>imageInfo</Name>
+      <Type>java.lang.String</Type>
+      <Desc>json格式的镜像信息</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/k8s/P_Communication.java</Path>
+</Component>

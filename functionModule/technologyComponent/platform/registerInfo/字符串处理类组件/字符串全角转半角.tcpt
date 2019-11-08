@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>079B4B9F34522EE06270C81EC93CDA16</UUID>
+  <Target>tc.platform.P_String.q2b</Target>
+  <Desp>字符串全角转半角</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>字符串全角转半角，半角字符原样返回</ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>ustring</Name>
+      <Type>java.lang.String</Type>
+      <Desc>需转换字符串</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>rstring</Name>
+      <Type>java.lang.String</Type>
+      <Desc>转换后字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

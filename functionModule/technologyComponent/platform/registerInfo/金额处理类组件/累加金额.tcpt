@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>5644ADA37F3E3074FE1BDB9A4094ADF0</UUID>
+  <Target>tc.platform.P_Amount.addAmount</Target>
+  <Desp>累加金额</Desp>
+  <Group>金额处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>累计金额</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>amt</Name>
+      <Type>java.lang.String</Type>
+      <Desc>交易金额</Desc>
+    </Arg>
+    <Arg>
+      <Name>tamt</Name>
+      <Type>java.lang.String</Type>
+      <Desc>总金额</Desc>
+    </Arg>
+    <Arg>
+      <Name>ispoint</Name>
+      <Type>java.lang.String</Type>
+      <Desc>是否为小数点，Point： 为有小数点，NoPoint：为没有，其他原值返回</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>tamt</Name>
+      <Type>java.lang.String</Type>
+      <Desc>累计金额</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_Amount.java</Path>
+</Component>

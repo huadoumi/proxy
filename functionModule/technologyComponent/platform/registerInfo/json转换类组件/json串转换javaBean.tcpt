@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>44F1C518E13D9D92E1E5CACFB3B159C1</UUID>
+  <Target>tc.platform.P_Json.strToBean</Target>
+  <Desp>json串转换javaBean</Desp>
+  <Group>json转换类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>json字符串转换为javaBean</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>className</Name>
+      <Type>java.lang.String</Type>
+      <Desc>完整的类的名称，要包含包名</Desc>
+    </Arg>
+    <Arg>
+      <Name>jsonStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>json字符串</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>obj</Name>
+      <Type>Object</Type>
+      <Desc>javaBean</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_Json.java</Path>
+</Component>

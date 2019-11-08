@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceArg>
+	
+  
+  <UUID>773C3EEFB7854B15ABDA4E50D7291203</UUID>
+	
+  
+  <InArg/>
+	
+  
+  <OutArg/>
+  <ServiceName>uploadResource</ServiceName>
+  <ServiceDesc>上传资源</ServiceDesc>
+  <JarName>afaProxy.uploadResource.jar</JarName>
+  <MainClass>afaProxy.uploadResource.TuploadResource</MainClass>
+</ServiceArg>

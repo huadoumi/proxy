@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Root>
+  
+  
+  <UUID>254AD0262F954D128F525416AB9AE967</UUID>
+  
+  
+  <DateInfo>
+    
+    
+    <CreateDate>2018-11-30 04:50</CreateDate>
+    
+    
+    <ModifyDate>2018-12-03 09:24</ModifyDate>
+  
+  
+  </DateInfo>
+  
+  
+  <NodeMaxnimum>60</NodeMaxnimum>
+  
+  
+  <Regulation>
+    
+    
+    <Step>
+      
+      
+      <UUID>21C599C921B14B838C89599757353EFB</UUID>
+      
+      
+      <Quote>0</Quote>
+      
+      
+      <Type>5</Type>
+      
+      
+      <Id>2</Id>
+      
+      
+      <Desp>查询</Desp>
+      
+      
+      <Auth>Hasee</Auth>
+      
+      
+      <RefImpl>查询</RefImpl>
+      
+      
+      <ToolTip/>
+      
+      
+      <Remarks>0</Remarks>
+      
+      
+      <Skip>
+        
+        
+        <Enabled>0</Enabled>
+        
+        
+        <Branch>1</Branch>
+      
+      
+      </Skip>
+      
+      
+      <HasSql>false</HasSql>
+      
+      
+      <Constraint>
+        
+        
+        <Location>199,240</Location>
+        
+        
+        <Size>160,46</Size>
+      
+      
+      </Constraint>
+      
+      
+      <Security>
+        
+        
+        <Readonly>8133F8F3854599BC</Readonly>
+        
+        
+        <TokenLevel>4DC324F67DB6DAC4</TokenLevel>
+      
+      
+      </Security>
+      
+      
+      <SourceConnections>
+        
+        
+        <Connection>
+          
+          
+          <targetId>3</targetId>
+          
+          
+          <SourceTerminal>1</SourceTerminal>
+          
+          
+          <TargetTerminal>N</TargetTerminal>
+        
+        
+        </Connection>
+        
+        
+        <Connection>
+          
+          
+          <targetId>3</targetId>
+          
+          
+          <SourceTerminal>0</SourceTerminal>
+          
+          
+          <TargetTerminal>W</TargetTerminal>
+        
+        
+        </Connection>
+      
+      
+      </SourceConnections>
+      
+      
+      <Implementation>
+        
+        
+        <Node>
+          
+          
+          <UUID>941FC525886D4D27BA93A4E82AC0D601</UUID>
+          
+          
+          <Id>1</Id>
+          
+          
+          <Name>开始</Name>
+          
+          
+          <Desp>开始</Desp>
+          
+          
+          <Type>2</Type>
+          
+          
+          <Target>Begin</Target>
+          
+          
+          <Style>0</Style>
+          
+          
+          <Tooltip>开始</Tooltip>
+          
+          
+          <Visible>null</Visible>
+          
+          
+          <Collapse>0</Collapse>
+          
+          
+          <Skip>
+            
+            
+            <Enabled>0</Enabled>
+            
+            
+            <Branch>1</Branch>
+          
+          
+          </Skip>
+          
+          
+          <Constraint>
+            
+            
+            <Location>200,60</Location>
+            
+            
+            <Size>63,63</Size>
+          
+          
+          </Constraint>
+          
+          
+          <SourceConnections>
+            
+            
+            <Connection>
+              
+              
+              <targetId>2</targetId>
+              
+              
+              <SourceTerminal>1</SourceTerminal>
+              
+              
+              <TargetTerminal>N</TargetTerminal>
+            
+            
+            </Connection>
+          
+          
+          </SourceConnections>
+          
+          
+          <Terminals>
+            
+            
+            <Terminal>
+              
+              
+              <Name>1</Name>
+              
+              
+              <Desp>锚点一</Desp>
+            
+            
+            </Terminal>
+          
+          
+          </Terminals>
+          
+          
+          <InArgs/>
+          
+          
+          <OutArgs/>
+          
+          
+          <Logic>
+            
+            
+            <Total>1</Total>
+            
+            
+            <RET1>2</RET1>
+          
+          
+          </Logic>
+        
+        
+        </Node>
+        
+        
+        <Node>
+          
+          
+          <UUID>B2186714445949CC9A8501CB984B0610</UUID>
+          
+          
+          <Id>2</Id>
+          
+          
+          <Name>默认逻辑错误委托</Name>
+          
+          
+          <Desp>默认逻辑错误委托</Desp>
+          
+          
+          <Type>6</Type>
+          
+          
+          <Target>DefaultException</Target>
+          
+          
+          <Style>2</Style>
+          
+          
+          <Tooltip>默认逻辑错误委托</Tooltip>
+          
+          
+          <Visible>1</Visible>
+          
+          
+          <Collapse>2</Collapse>
+          
+          
+          <Skip>
+            
+            
+            <Enabled>0</Enabled>
+            
+            
+            <Branch>1</Branch>
+          
+          
+          </Skip>
+          
+          
+          <Constraint>
+            
+            
+            <Location>152,160</Location>
+            
+            
+            <Size>160,46</Size>
+          
+          
+          </Constraint>
+          
+          
+          <SourceConnections>
+            
+            
+            <Connection>
+              
+              
+              <targetId>4</targetId>
+              
+              
+              <SourceTerminal>0</SourceTerminal>
+              
+              
+              <TargetTerminal>N</TargetTerminal>
+            
+            
+            </Connection>
+            
+            
+            <Connection>
+              
+              
+              <targetId>3</targetId>
+              
+              
+              <SourceTerminal>1</SourceTerminal>
+              
+              
+              <TargetTerminal>N</TargetTerminal>
+            
+            
+            </Connection>
+          
+          
+          </SourceConnections>
+          
+          
+          <Terminals>
+            
+            
+            <Terminal>
+              
+              
+              <Name>0</Name>
+              
+              
+              <Desp>失败</Desp>
+            
+            
+            </Terminal>
+            
+            
+            <Terminal>
+              
+              
+              <Name>1</Name>
+              
+              
+              <Desp>成功</Desp>
+            
+            
+            </Terminal>
+          
+          
+          </Terminals>
+          
+          
+          <InArgs/>
+          
+          
+          <OutArgs/>
+          
+          
+          <PointInfoLogMode>2</PointInfoLogMode>
+          
+          
+          <PointInfoLogLevel>6</PointInfoLogLevel>
+          
+          
+          <Logic>
+            
+            
+            <Total>2</Total>
+            
+            
+            <RET0>4</RET0>
+            
+            
+            <RET1>3</RET1>
+          
+          
+          </Logic>
+        
+        
+        </Node>
+        
+        
+        <Node>
+          
+          
+          <UUID>0CCBFD8EB9E54CECA9368C70D9B4D099</UUID>
+          
+          
+          <Id>4</Id>
+          
+          
+          <Name>失败结束</Name>
+          
+          
+          <Desp>失败结束</Desp>
+          
+          
+          <Sql/>
+          
+          
+          <Type>4</Type>
+          
+          
+          <Target>END</Target>
+          
+          
+          <Style>0</Style>
+          
+          
+          <Tooltip>失败结束</Tooltip>
+          
+          
+          <Visible>1</Visible>
+          
+          
+          <Collapse>0</Collapse>
+          
+          
+          <Skip>
+            
+            
+            <Enabled>0</Enabled>
+            
+            
+            <Branch>1</Branch>
+          
+          
+          </Skip>
+          
+          
+          <Constraint>
+            
+            
+            <Location>111,356</Location>
+            
+            
+            <Size>63,63</Size>
+          
+          
+          </Constraint>
+          
+          
+          <SourceConnections/>
+          
+          
+          <InArgs/>
+          
+          
+          <OutArgs/>
+          
+          
+          <Logic>
+            
+            
+            <Total>0</Total>
+          
+          
+          </Logic>
+        
+        
+        </Node>
+        
+        
+        <Node>
+          
+          
+          <UUID>401AFF82784C4E04B8FE25452936B023</UUID>
+          
+          
+          <Ref>212D65F98B535AAA074A5B9CE1950E2E</Ref>
+          
+          
+          <Id>3</Id>
+          
+          
+          <Name>获取所有namespaces</Name>
+          
+          
+          <Desp>获取所有namespaces</Desp>
+          
+          
+          <Level>0</Level>
+          
+          
+          <Group>k8s,镜像仓库通信，交互</Group>
+          
+          
+          <Sql/>
+          
+          
+          <Type>11</Type>
+          
+          
+          <Target>tc.platform.k8s.P_Communication.P_getNamespaces</Target>
+          
+          
+          <FilePath>/functionModule/technologyComponent/platform/registerInfo/k8s,镜像仓库通信，交互/获取所有namespaces.tcpt</FilePath>
+          
+          
+          <Style>3</Style>
+          
+          
+          <Tooltip>获取所有namespaces</Tooltip>
+          
+          
+          <Skip>
+            
+            
+            <Enabled>0</Enabled>
+            
+            
+            <Branch>1</Branch>
+          
+          
+          </Skip>
+          
+          
+          <IsDebug>0</IsDebug>
+          
+          
+          <Debug>
+            
+            
+            <Codes>
+              
+              
+              <Total>0</Total>
+            
+            
+            </Codes>
+            
+            
+            <Result>1</Result>
+            
+            
+            <Return/>
+            
+            
+            <ReturnList/>
+          
+          
+          </Debug>
+          
+          
+          <Constraint>
+            
+            
+            <Location>240,280</Location>
+            
+            
+            <Size>160,46</Size>
+          
+          
+          </Constraint>
+          
+          
+          <Async>0</Async>
+          
+          
+          <SourceConnections>
+            
+            
+            <Connection>
+              
+              
+              <targetId>5</targetId>
+              
+              
+              <SourceTerminal>1</SourceTerminal>
+              
+              
+              <TargetTerminal>W</TargetTerminal>
+            
+            
+            </Connection>
+          
+          
+          </SourceConnections>
+          
+          
+          <Terminals>
+            
+            
+            <Terminal>
+              
+              
+              <Name>0</Name>
+              
+              
+              <Desp>失败</Desp>
+            
+            
+            </Terminal>
+            
+            
+            <Terminal>
+              
+              
+              <Name>1</Name>
+              
+              
+              <Desp>成功</Desp>
+            
+            
+            </Terminal>
+          
+          
+          </Terminals>
+          
+          
+          <InArgs/>
+          
+          
+          <OutArgs>
+            
+            
+            <Arg>
+              
+              
+              <Name>作为响应的json字符串</Name>
+              
+              
+              <Key>responseStr</Key>
+              
+              
+              <Arg>__RSP__["resp"]</Arg>
+              
+              
+              <Level>4</Level>
+              
+              
+              <Type>java.lang.String</Type>
+            
+            
+            </Arg>
+          
+          
+          </OutArgs>
+          
+          
+          <AspectUsed>0</AspectUsed>
+          
+          
+          <PointInfoLogMode>2</PointInfoLogMode>
+          
+          
+          <PointInfoLogLevel>6</PointInfoLogLevel>
+          
+          
+          <Logic>
+            
+            
+            <Total>1</Total>
+            
+            
+            <RET1>5</RET1>
+          
+          
+          </Logic>
+        
+        
+        </Node>
+        
+        
+        <Node>
+          
+          
+          <UUID>E65BBD8DBA114B7CB41DA9E6F9E9B60A</UUID>
+          
+          
+          <Id>5</Id>
+          
+          
+          <Name>正常结束</Name>
+          
+          
+          <Desp>正常结束</Desp>
+          
+          
+          <Sql/>
+          
+          
+          <Type>3</Type>
+          
+          
+          <Target>END</Target>
+          
+          
+          <Style>0</Style>
+          
+          
+          <Tooltip>正常结束</Tooltip>
+          
+          
+          <Visible>1</Visible>
+          
+          
+          <Collapse>0</Collapse>
+          
+          
+          <Skip>
+            
+            
+            <Enabled>0</Enabled>
+            
+            
+            <Branch>1</Branch>
+          
+          
+          </Skip>
+          
+          
+          <Constraint>
+            
+            
+            <Location>326,419</Location>
+            
+            
+            <Size>63,63</Size>
+          
+          
+          </Constraint>
+          
+          
+          <SourceConnections/>
+          
+          
+          <InArgs/>
+          
+          
+          <OutArgs/>
+          
+          
+          <Logic>
+            
+            
+            <Total>0</Total>
+          
+          
+          </Logic>
+        
+        
+        </Node>
+        
+        
+        <Usage>1</Usage>
+      
+      
+      </Implementation>
+      
+      
+      <Terminals>
+        
+        
+        <Terminal>
+          
+          
+          <Name>0</Name>
+          
+          
+          <Desp>失败</Desp>
+        
+        
+        </Terminal>
+        
+        
+        <Terminal>
+          
+          
+          <Name>1</Name>
+          
+          
+          <Desp>成功</Desp>
+        
+        
+        </Terminal>
+      
+      
+      </Terminals>
+      
+      
+      <PointInfoLogMode>2</PointInfoLogMode>
+      
+      
+      <PointInfoLogLevel>6</PointInfoLogLevel>
+      
+      
+      <True>3</True>
+      
+      
+      <False>3</False>
+    
+    
+    </Step>
+    
+    
+    <Step>
+      
+      
+      <UUID>002EBA424E1844439BE7734097095BB2</UUID>
+      
+      
+      <Quote>0</Quote>
+      
+      
+      <Type>5</Type>
+      
+      
+      <Id>3</Id>
+      
+      
+      <Desp>拼包</Desp>
+      
+      
+      <Auth>Hasee</Auth>
+      
+      
+      <RefImpl>拼包</RefImpl>
+      
+      
+      <ToolTip/>
+      
+      
+      <Remarks>0</Remarks>
+      
+      
+      <Skip>
+        
+        
+        <Enabled>0</Enabled>
+        
+        
+        <Branch>1</Branch>
+      
+      
+      </Skip>
+      
+      
+      <HasSql>false</HasSql>
+      
+      
+      <Constraint>
+        
+        
+        <Location>199,320</Location>
+        
+        
+        <Size>160,46</Size>
+      
+      
+      </Constraint>
+      
+      
+      <Security>
+        
+        
+        <Readonly>9C137C8C89BB203B</Readonly>
+        
+        
+        <TokenLevel>2755AD145BDA3691</TokenLevel>
+      
+      
+      </Security>
+      
+      
+      <SourceConnections/>
+      
+      
+      <Implementation>
+        
+        
+        <Node>
+          
+          
+          <UUID>941FC525886D4D27BA93A4E82AC0D601</UUID>
+          
+          
+          <Id>1</Id>
+          
+          
+          <Name>开始</Name>
+          
+          
+          <Desp>开始</Desp>
+          
+          
+          <Type>2</Type>
+          
+          
+          <Target>Begin</Target>
+          
+          
+          <Style>0</Style>
+          
+          
+          <Tooltip>开始</Tooltip>
+          
+          
+          <Visible>null</Visible>
+          
+          
+          <Collapse>0</Collapse>
+          
+          
+          <Skip>
+            
+            
+            <Enabled>0</Enabled>
+            
+            
+            <Branch>1</Branch>
+          
+          
+          </Skip>
+          
+          
+          <Constraint>
+            
+            
+            <Location>200,60</Location>
+            
+            
+            <Size>63,63</Size>
+          
+          
+          </Constraint>
+          
+          
+          <SourceConnections>
+            
+            
+            <Connection>
+              
+              
+              <targetId>2</targetId>
+              
+              
+              <SourceTerminal>1</SourceTerminal>
+              
+              
+              <TargetTerminal>N</TargetTerminal>
+            
+            
+            </Connection>
+          
+          
+          </SourceConnections>
+          
+          
+          <Terminals>
+            
+            
+            <Terminal>
+              
+              
+              <Name>1</Name>
+              
+              
+              <Desp>锚点一</Desp>
+            
+            
+            </Terminal>
+          
+          
+          </Terminals>
+          
+          
+          <InArgs/>
+          
+          
+          <OutArgs/>
+          
+          
+          <Logic>
+            
+            
+            <Total>1</Total>
+            
+            
+            <RET1>2</RET1>
+          
+          
+          </Logic>
+        
+        
+        </Node>
+        
+        
+        <Node>
+          
+          
+          <UUID>B2186714445949CC9A8501CB984B0610</UUID>
+          
+          
+          <Id>2</Id>
+          
+          
+          <Name>默认逻辑错误委托</Name>
+          
+          
+          <Desp>默认逻辑错误委托</Desp>
+          
+          
+          <Type>6</Type>
+          
+          
+          <Target>DefaultException</Target>
+          
+          
+          <Style>2</Style>
+          
+          
+          <Tooltip>默认逻辑错误委托</Tooltip>
+          
+          
+          <Visible>1</Visible>
+          
+          
+          <Collapse>2</Collapse>
+          
+          
+          <Skip>
+            
+            
+            <Enabled>0</Enabled>
+            
+            
+            <Branch>1</Branch>
+          
+          
+          </Skip>
+          
+          
+          <Constraint>
+            
+            
+            <Location>152,160</Location>
+            
+            
+            <Size>160,46</Size>
+          
+          
+          </Constraint>
+          
+          
+          <SourceConnections>
+            
+            
+            <Connection>
+              
+              
+              <targetId>4</targetId>
+              
+              
+              <SourceTerminal>0</SourceTerminal>
+              
+              
+              <TargetTerminal>N</TargetTerminal>
+            
+            
+            </Connection>
+            
+            
+            <Connection>
+              
+              
+              <targetId>3</targetId>
+              
+              
+              <SourceTerminal>1</SourceTerminal>
+              
+              
+              <TargetTerminal>N</TargetTerminal>
+            
+            
+            </Connection>
+          
+          
+          </SourceConnections>
+          
+          
+          <Terminals>
+            
+            
+            <Terminal>
+              
+              
+              <Name>0</Name>
+              
+              
+              <Desp>失败</Desp>
+            
+            
+            </Terminal>
+            
+            
+            <Terminal>
+              
+              
+              <Name>1</Name>
+              
+              
+              <Desp>成功</Desp>
+            
+            
+            </Terminal>
+          
+          
+          </Terminals>
+          
+          
+          <InArgs/>
+          
+          
+          <OutArgs/>
+          
+          
+          <PointInfoLogMode>2</PointInfoLogMode>
+          
+          
+          <PointInfoLogLevel>6</PointInfoLogLevel>
+          
+          
+          <Logic>
+            
+            
+            <Total>2</Total>
+            
+            
+            <RET0>4</RET0>
+            
+            
+            <RET1>3</RET1>
+          
+          
+          </Logic>
+        
+        
+        </Node>
+        
+        
+        <Node>
+          
+          
+          <UUID>0CCBFD8EB9E54CECA9368C70D9B4D099</UUID>
+          
+          
+          <Id>4</Id>
+          
+          
+          <Name>失败结束</Name>
+          
+          
+          <Desp>失败结束</Desp>
+          
+          
+          <Sql/>
+          
+          
+          <Type>4</Type>
+          
+          
+          <Target>END</Target>
+          
+          
+          <Style>0</Style>
+          
+          
+          <Tooltip>失败结束</Tooltip>
+          
+          
+          <Visible>1</Visible>
+          
+          
+          <Collapse>0</Collapse>
+          
+          
+          <Skip>
+            
+            
+            <Enabled>0</Enabled>
+            
+            
+            <Branch>1</Branch>
+          
+          
+          </Skip>
+          
+          
+          <Constraint>
+            
+            
+            <Location>111,356</Location>
+            
+            
+            <Size>63,63</Size>
+          
+          
+          </Constraint>
+          
+          
+          <SourceConnections/>
+          
+          
+          <InArgs/>
+          
+          
+          <OutArgs/>
+          
+          
+          <Logic>
+            
+            
+            <Total>0</Total>
+          
+          
+          </Logic>
+        
+        
+        </Node>
+        
+        
+        <Node>
+          
+          
+          <Ref>3CCC082DD9A9BF16CD712621FAE46D4F</Ref>
+          
+          
+          <Id>3</Id>
+          
+          
+          <Name>HTTP响应报文拼包</Name>
+          
+          
+          <Desp>HTTP响应报文拼包</Desp>
+          
+          
+          <Level>0</Level>
+          
+          
+          <Group>渠道通讯类组件</Group>
+          
+          
+          <Sql/>
+          
+          
+          <Type>11</Type>
+          
+          
+          <Target>tc.platform.P_HttpCodec.packResponse</Target>
+          
+          
+          <FilePath>/functionModule/technologyComponent/platform/registerInfo/渠道通讯类组件/HTTP响应报文拼包.tcpt</FilePath>
+          
+          
+          <Style>3</Style>
+          
+          
+          <Tooltip>字典headers可以为空，如果为空，则自动添加内容长度信息</Tooltip>
+          
+          
+          <Skip>
+            
+            
+            <Enabled>0</Enabled>
+            
+            
+            <Branch>1</Branch>
+          
+          
+          </Skip>
+          
+          
+          <IsDebug>0</IsDebug>
+          
+          
+          <Debug>
+            
+            
+            <Codes>
+              
+              
+              <Total>0</Total>
+            
+            
+            </Codes>
+            
+            
+            <Result>1</Result>
+            
+            
+            <Return/>
+            
+            
+            <ReturnList/>
+          
+          
+          </Debug>
+          
+          
+          <Constraint>
+            
+            
+            <Location>240,260</Location>
+            
+            
+            <Size>160,46</Size>
+          
+          
+          </Constraint>
+          
+          
+          <Async>0</Async>
+          
+          
+          <SourceConnections>
+            
+            
+            <Connection>
+              
+              
+              <targetId>5</targetId>
+              
+              
+              <SourceTerminal>1</SourceTerminal>
+              
+              
+              <TargetTerminal>N</TargetTerminal>
+            
+            
+            </Connection>
+          
+          
+          </SourceConnections>
+          
+          
+          <Terminals>
+            
+            
+            <Terminal>
+              
+              
+              <Name>0</Name>
+              
+              
+              <Desp>失败</Desp>
+            
+            
+            </Terminal>
+            
+            
+            <Terminal>
+              
+              
+              <Name>1</Name>
+              
+              
+              <Desp>成功</Desp>
+            
+            
+            </Terminal>
+          
+          
+          </Terminals>
+          
+          
+          <InArgs>
+            
+            
+            <Arg>
+              
+              
+              <Name>响应状态代码 ，如"200","502"</Name>
+              
+              
+              <Key>status</Key>
+              
+              
+              <Arg>"200"</Arg>
+              
+              
+              <Level>4</Level>
+              
+              
+              <Type>java.lang.String</Type>
+            
+            
+            </Arg>
+            
+            
+            <Arg>
+              
+              
+              <Name>头部信息字典</Name>
+              
+              
+              <Key>headers</Key>
+              
+              
+              <Arg>{"content-type":"application/json"}</Arg>
+              
+              
+              <Level>4</Level>
+              
+              
+              <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+            
+            
+            </Arg>
+            
+            
+            <Arg>
+              
+              
+              <Name>报文内容</Name>
+              
+              
+              <Key>content</Key>
+              
+              
+              <Arg>__RSP__["resp"]
+</Arg>              
+              
+              <Level>4</Level>
+              
+              
+              <Type>java.lang.String</Type>
+            
+            
+            </Arg>
+            
+            
+            <Arg>
+              
+              
+              <Name>编码,默认使用UTF-8</Name>
+              
+              
+              <Key>encoding</Key>
+              
+              
+              <Arg>"UTF-8"</Arg>
+              
+              
+              <Level>4</Level>
+              
+              
+              <Type>java.lang.String</Type>
+            
+            
+            </Arg>
+            
+            
+            <Arg>
+              
+              
+              <Name>http报文版本</Name>
+              
+              
+              <Key>version</Key>
+              
+              
+              <Level>4</Level>
+              
+              
+              <Type>java.lang.String</Type>
+            
+            
+            </Arg>
+          
+          
+          </InArgs>
+          
+          
+          <OutArgs>
+            
+            
+            <Arg>
+              
+              
+              <Name>HTTP响应报文，请设置到 __RSP__["__SNDPCK__"]，以便返回给客户端。</Name>
+              
+              
+              <Key>response</Key>
+              
+              
+              <Arg>__RSP__["__SNDPCK__"]</Arg>
+              
+              
+              <Level>4</Level>
+              
+              
+              <Type>byte</Type>
+            
+            
+            </Arg>
+          
+          
+          </OutArgs>
+          
+          
+          <AspectUsed>0</AspectUsed>
+          
+          
+          <PointInfoLogMode>2</PointInfoLogMode>
+          
+          
+          <PointInfoLogLevel>6</PointInfoLogLevel>
+          
+          
+          <Logic>
+            
+            
+            <Total>1</Total>
+            
+            
+            <RET1>5</RET1>
+          
+          
+          </Logic>
+        
+        
+        </Node>
+        
+        
+        <Node>
+          
+          
+          <Id>5</Id>
+          
+          
+          <Name>正常结束</Name>
+          
+          
+          <Desp>正常结束</Desp>
+          
+          
+          <Sql/>
+          
+          
+          <Type>3</Type>
+          
+          
+          <Target>END</Target>
+          
+          
+          <Style>0</Style>
+          
+          
+          <Tooltip>正常结束</Tooltip>
+          
+          
+          <Visible>1</Visible>
+          
+          
+          <Collapse>0</Collapse>
+          
+          
+          <Skip>
+            
+            
+            <Enabled>0</Enabled>
+            
+            
+            <Branch>1</Branch>
+          
+          
+          </Skip>
+          
+          
+          <Constraint>
+            
+            
+            <Location>311,398</Location>
+            
+            
+            <Size>63,63</Size>
+          
+          
+          </Constraint>
+          
+          
+          <SourceConnections/>
+          
+          
+          <InArgs/>
+          
+          
+          <OutArgs/>
+          
+          
+          <Logic>
+            
+            
+            <Total>0</Total>
+          
+          
+          </Logic>
+        
+        
+        </Node>
+        
+        
+        <Usage>1</Usage>
+      
+      
+      </Implementation>
+      
+      
+      <Terminals>
+        
+        
+        <Terminal>
+          
+          
+          <Name>0</Name>
+          
+          
+          <Desp>失败</Desp>
+        
+        
+        </Terminal>
+        
+        
+        <Terminal>
+          
+          
+          <Name>1</Name>
+          
+          
+          <Desp>成功</Desp>
+        
+        
+        </Terminal>
+      
+      
+      </Terminals>
+      
+      
+      <PointInfoLogMode>2</PointInfoLogMode>
+      
+      
+      <PointInfoLogLevel>6</PointInfoLogLevel>
+      
+      
+      <True>0</True>
+      
+      
+      <False>0</False>
+    
+    
+    </Step>
+  
+  
+  </Regulation>
+</Root>

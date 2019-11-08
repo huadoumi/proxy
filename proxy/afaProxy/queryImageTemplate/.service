@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Flag>
+	
+  <Version>1.0.0</Version>
+	
+  <Name>queryImageTemplage</Name>
+	
+  <Desc>查询镜像模版信息</Desc>
+	
+  <Author>null</Author>
+	
+  <ExecuteOnWGStartup>0</ExecuteOnWGStartup>
+</Flag>

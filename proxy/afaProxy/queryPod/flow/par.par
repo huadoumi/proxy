@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceArg>
+	
+  
+  <UUID>9AC71FC2FE2249BFAAFA1BA359B10C12</UUID>
+	
+  
+  <InArg/>
+	
+  
+  <OutArg/>
+  <ServiceName>queryPod</ServiceName>
+  <ServiceDesc>查询pod信息</ServiceDesc>
+  <JarName>afaProxy.queryPod.jar</JarName>
+  <MainClass>afaProxy.queryPod.TqueryPod</MainClass>
+</ServiceArg>

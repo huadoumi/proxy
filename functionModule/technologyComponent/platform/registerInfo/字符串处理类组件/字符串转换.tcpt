@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>48AB59CB7EA81F5EBD6295E2FF3DCDC3</UUID>
+  <Target>tc.platform.P_String.convertStr</Target>
+  <Desp>字符串转换</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>将输入的字符串按照转换类型转换,暂只支持大小写转换,转换类型为'upper'和'lower'</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>inStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>输入字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>convertType</Name>
+      <Type>java.lang.String</Type>
+      <Desc>转换类型</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>outStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>转换后的字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>212D65F98B535AAA074A5B9CE1950E2E</UUID>
+  <Target>tc.platform.k8s.P_Communication.P_getNamespaces</Target>
+  <Desp>获取所有namespaces</Desp>
+  <Group>k8s,镜像仓库通信，交互</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>获取所有namespaces</ToolTip>
+  <InArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>responseStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>作为响应的json字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/k8s/P_Communication.java</Path>
+</Component>

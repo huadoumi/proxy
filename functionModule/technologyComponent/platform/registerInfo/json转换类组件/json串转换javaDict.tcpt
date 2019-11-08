@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>882CE72012F4B5A07F643D844F8CF699</UUID>
+  <Target>tc.platform.P_Json.strToDict</Target>
+  <Desp>json串转换javaDict</Desp>
+  <Group>json转换类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>json字符串转换平台字典类型对象</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>dict</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>字典</Desc>
+    </Arg>
+    <Arg>
+      <Name>jsonStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>json串</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_Json.java</Path>
+</Component>

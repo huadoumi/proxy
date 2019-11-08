@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>7FB2B4558B23705C5B68F96DA12A8077</UUID>
+  <Target>tc.platform.P_String.fillStr</Target>
+  <Desp>字符串补足</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>对指定字符串进行补足处理,left-表示左补(rjust),right-表示右补(ljust),center-表示两边补齐(center)</ToolTip>
+  <InArgs>
+    <Total>4</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>inStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>原字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>len</Name>
+      <Type>int</Type>
+      <Desc>补足后的字符长度</Desc>
+    </Arg>
+    <Arg>
+      <Name>direct</Name>
+      <Type>java.lang.String</Type>
+      <Desc>补足位置</Desc>
+    </Arg>
+    <Arg>
+      <Name>fillChar</Name>
+      <Type>char</Type>
+      <Desc>补位字符</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>outStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>补足后的字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

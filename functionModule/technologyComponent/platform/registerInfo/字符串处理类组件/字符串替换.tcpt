@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>289C01665C97C97582B3B1E7D5A3D52F</UUID>
+  <Target>tc.platform.P_String.replaceStr</Target>
+  <Desp>字符串替换</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>将指定的子串替换为指定的另外子串</ToolTip>
+  <InArgs>
+    <Total>4</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>inStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>输入字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>old</Name>
+      <Type>java.lang.String</Type>
+      <Desc>待替换字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>replacement</Name>
+      <Type>java.lang.String</Type>
+      <Desc>替换字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>count</Name>
+      <Type>int</Type>
+      <Desc>替换最大次数(全部则是-1)</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>outStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>替换后的字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

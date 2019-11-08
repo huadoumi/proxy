@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceArg>
+	
+  
+  
+  <UUID>B86DD6AC156541A59D1FD7A110A77BF9</UUID>
+	
+  
+  
+  <InArg/>
+	
+  
+  
+  <OutArg/>
+  
+  <ServiceName>queryImageTemplage</ServiceName>
+  
+  <ServiceDesc>查询镜像模版信息</ServiceDesc>
+  
+  <JarName>afaProxy.queryImageTemplage.jar</JarName>
+  
+  <MainClass>afaProxy.queryImageTemplage.TqueryImageTemplage</MainClass>
+</ServiceArg>

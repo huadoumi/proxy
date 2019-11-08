@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>2A54DD62E336654D6C3829841F9693A5</UUID>
+  <Target>tc.platform.P_String.findStr</Target>
+  <Desp>字符串查找</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>查找字符串中的子串,可指定开始下标，返回查找到的下标结果</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>inStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>被查找字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>substr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>子串</Desc>
+    </Arg>
+    <Arg>
+      <Name>start</Name>
+      <Type>int</Type>
+      <Desc>开始下标</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>position</Name>
+      <Type>int</Type>
+      <Desc>子串下标</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>3</Total>
+    <RET2>没有查找到</RET2>
+    <RET1>成功</RET1>
+    <RET0>入参有误</RET0>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>18B790A41C1E1BA0B8E4AA0F67B30D19</UUID>
+  <Target>tc.platform.P_HttpCodec.P_unpackRequest</Target>
+  <Desp>提取请求报文体</Desp>
+  <Group>渠道通讯类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>以字符串的形式获取请求报文体</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>__REQ__</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>请求容器</Desc>
+    </Arg>
+    <Arg>
+      <Name>encoding</Name>
+      <Type>java.lang.String</Type>
+      <Desc>编码方式</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>body</Name>
+      <Type>java.lang.String</Type>
+      <Desc>请求报文体</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_HttpCodec.java</Path>
+</Component>

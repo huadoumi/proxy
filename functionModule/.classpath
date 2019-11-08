@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/afa library"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="technologyComponent/bank/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/adal4j-1.6.0.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/animal-sniffer-annotations-1.14.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/aopalliance-repackaged-2.4.0-b34.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/bcpkix-jdk15on-1.59.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/bcprov-ext-jdk15on-1.59.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/bcprov-jdk15on-1.59.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/builder-annotations-0.8.0.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/checker-qual-2.0.0.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/client-java-3.0.0-beta2.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/client-java-api-3.0.0-beta2.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/client-java-proto-3.0.0-beta2.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/commons-compress-1.12.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/commons-io-2.5.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/docker-java-3.0.12.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/error_prone_annotations-2.1.3.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/fastjson-1.2.7.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/guava-25.1-jre.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/hk2-api-2.4.0-b34.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/hk2-locator-2.4.0-b34.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/hk2-utils-2.4.0-b34.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/httpclient-4.4.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/httpcore-4.4.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/httpmime-4.4.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/j2objc-annotations-1.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/jackson-jaxrs-base-2.6.4.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/jackson-jaxrs-json-provider-2.6.4.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/javax.annotation-api-1.2.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/javax.inject-2.4.0-b34.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/javax.ws.rs-api-2.0.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/jcip-annotations-1.0-1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/jcl-over-slf4j-1.7.21.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/jersey-apache-connector-2.23.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/jersey-client-2.23.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/jersey-common-2.23.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/jersey-guava-2.23.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/joda-convert-1.2.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/joda-time-2.9.3.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/json-smart-1.3.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/jsr305-3.0.2.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/junixsocket-common-2.0.4.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/junixsocket-native-common-2.0.4.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/lang-tag-1.4.4.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/logging-interceptor-2.7.5.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/mail-1.4.7.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/native-lib-loader-2.0.2.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/netty-all-4.1.6.Final.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/nimbus-jose-jwt-7.2.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/oauth2-oidc-sdk-5.24.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/okhttp-2.7.5.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/okhttp-ws-2.7.5.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/okio-1.6.0.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/osgi-resource-locator-1.0.1.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/protobuf-java-3.4.0.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/slf4j-api-1.7.25.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/snakeyaml-1.19.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/sundr-codegen-0.8.0.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/sundr-core-0.8.0.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="lib" path="technologyComponent/platform/dependencies/swagger-annotations-1.5.12.jar" rootpath="F:/AFAIDE_oxygen_v4.1.2_20180910/test2/functionModule/technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="src" path="technologyComponent/platform/componentSourceCode"/>
+	<classpathentry kind="src" path="technologyComponent/projects/proxy/afaProxy/componentSourceCode"/>
+	<classpathentry kind="src" path="/dataModule"/>
+	<classpathentry kind="output" path="technologyComponent/output/.bin"/>
+</classpath>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>B194A61D76DE1767CEFC987B28A5DFA8</UUID>
+  <Target>tc.platform.P_Amount.delZeroBeforeStr</Target>
+  <Desp>去除金额字符串前的0</Desp>
+  <Group>金额处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>去除金额字符串前的0</ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>instr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>原字符串</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>outstr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>输出字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_Amount.java</Path>
+</Component>

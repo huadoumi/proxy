@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>AD1741E16BF0D60B62DCA1942E8D7D0C</UUID>
+  <Target>tc.platform.P_HttpClient.doPost</Target>
+  <Desp>发送HTTP POST请求</Desp>
+  <Group>渠道通讯类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>根据HTTP动作解释，POST动作用于请求服务器新建某个资源，通常用于发送表单</ToolTip>
+  <InArgs>
+    <Total>6</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>url</Name>
+      <Type>java.lang.String</Type>
+      <Desc>请求URL,例如："http://127.0.0.1:8080/xx"</Desc>
+    </Arg>
+    <Arg>
+      <Name>header</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>HTTP协议头部携带信息字典,可为null</Desc>
+    </Arg>
+    <Arg>
+      <Name>requestBody</Name>
+      <Type>java.lang.String</Type>
+      <Desc>请求报文体</Desc>
+    </Arg>
+    <Arg>
+      <Name>connectTimeout</Name>
+      <Type>int</Type>
+      <Desc>连接超时时间(毫秒),小于等于0时默认为5000毫秒</Desc>
+    </Arg>
+    <Arg>
+      <Name>socketTimeout</Name>
+      <Type>int</Type>
+      <Desc>响应超时时间(毫秒),小于等于0时默认为5000毫秒</Desc>
+    </Arg>
+    <Arg>
+      <Name>encoding</Name>
+      <Type>java.lang.String</Type>
+      <Desc>编码，默认为UTF-8</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>responseBody</Name>
+      <Type>java.lang.String</Type>
+      <Desc>响应报文体</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_HttpClient.java</Path>
+</Component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>F5BD23C31E664547A2785B73707F89D4</UUID>
+  <Target>tc.platform.k8s.P_Init.P_deleteRes</Target>
+  <Desp>清理上传目录</Desp>
+  <Group>交易初始化或者设值相关的组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>清理上传目录</ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>resPath</Name>
+      <Type>java.lang.String</Type>
+      <Desc>上传目录</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/k8s/P_Init.java</Path>
+</Component>

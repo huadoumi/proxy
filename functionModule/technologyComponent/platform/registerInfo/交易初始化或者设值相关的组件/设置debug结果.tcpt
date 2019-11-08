@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>FA0B84BE77A2B2A7B05A2BFAC39636EA</UUID>
+  <Target>tc.platform.k8s.P_Init.P_setDebugResult</Target>
+  <Desp>设置debug结果</Desp>
+  <Group>交易初始化或者设值相关的组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>设置debug结果</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>__RSP__</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>__RSP__</Desc>
+    </Arg>
+    <Arg>
+      <Name>reason</Name>
+      <Type>java.lang.String</Type>
+      <Desc>失败原因</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>status</Name>
+      <Type>java.lang.String</Type>
+      <Desc>状态</Desc>
+    </Arg>
+    <Arg>
+      <Name>reason</Name>
+      <Type>java.lang.String</Type>
+      <Desc>原因</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/k8s/P_Init.java</Path>
+</Component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Flag>
+	
+  <Version>1.0.0</Version>
+	
+  <Name/>
+	
+  <Desc>封装了FileUtils里面相关的操作，以组件的形式暴露</Desc>
+</Flag>

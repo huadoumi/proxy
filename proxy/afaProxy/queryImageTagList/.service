@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Flag>
+	
+  <Version>1.0.0</Version>
+	
+  <Name>queryImageTagList</Name>
+	
+  <Desc>查询镜像的历史版本</Desc>
+	
+  <Author>null</Author>
+	
+  <ExecuteOnWGStartup>0</ExecuteOnWGStartup>
+</Flag>

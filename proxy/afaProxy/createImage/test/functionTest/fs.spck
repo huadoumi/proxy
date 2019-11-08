@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Standard>
+  <RegistType>native</RegistType>
+  <ProtocolType>abus</ProtocolType>
+  <MsgFormat>str</MsgFormat>
+  <Host>127.0.0.1</Host>
+  <Port>9527</Port>
+  <SystemCode>proxy</SystemCode>
+  <SessionTimeout>30000</SessionTimeout>
+  <BodyStr></BodyStr>
+  <Header>
+    <Item>
+      <Name>serviceCode</Name>
+      <Value>afaProxy</Value>
+      <Desp>服务码</Desp>
+    </Item>
+    <Item>
+      <Name>serviceVersion</Name>
+      <Value>1.0.0</Value>
+      <Desp>服务版本</Desp>
+    </Item>
+    <Item>
+      <Name>sceneCode</Name>
+      <Value>createImage</Value>
+      <Desp>场景码</Desp>
+    </Item>
+    <Item>
+      <Name>sceneVersion</Name>
+      <Value>1.0.0</Value>
+      <Desp>场景版本</Desp>
+    </Item>
+  </Header>
+  <BodyMap/>
+</Standard>

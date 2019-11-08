@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Flag>
+	
+  <Version>1.0.0</Version>
+	
+  <Name/>
+	
+  <Desc>代理，和k8s集群内的交互或者和镜像仓库交互</Desc>
+</Flag>

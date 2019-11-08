@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>AB9B72DE498E8938F050825BCAFE5202</UUID>
+  <Target>tc.platform.P_String.createFixData</Target>
+  <Desp>拼接定长串</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>将按指定格式拼接定长串</ToolTip>
+  <InArgs>
+    <Total>5</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>dataContext</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>数据字典</Desc>
+    </Arg>
+    <Arg>
+      <Name>fixNum</Name>
+      <Type>int</Type>
+      <Desc>条数</Desc>
+    </Arg>
+    <Arg>
+      <Name>lenFmt</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>长度格式</Desc>
+    </Arg>
+    <Arg>
+      <Name>dataFmt</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>数据域</Desc>
+    </Arg>
+    <Arg>
+      <Name>typeFmt</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>数据域类型(String|Number|Decimal|Amount)</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>fixData</Name>
+      <Type>java.lang.String</Type>
+      <Desc>定长串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

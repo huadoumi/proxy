@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>C1AC4121E298B28CA409F5FBD262C347</UUID>
+  <Target>tc.platform.P_String.checkAttributeSign</Target>
+  <Desp>判断字符串是否符合对应属性符号</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>判断输入的字符串里面是否满足输入的对应属性符号</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>productCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>产品代码</Desc>
+    </Arg>
+    <Arg>
+      <Name>attr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>属性符号</Desc>
+    </Arg>
+    <Arg>
+      <Name>checkStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>预被检验的字符串</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

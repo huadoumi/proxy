@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>56CFD30506857572017091ED13AADFE2</UUID>
+  <Target>tc.platform.P_Amount.compareAmount</Target>
+  <Desp>比较金额</Desp>
+  <Group>金额处理类组件</Group>
+  <Level>0</Level>
+  <Style>2</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>1:小于，2：大于，3：等于</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>amt</Name>
+      <Type>java.lang.String</Type>
+      <Desc>交易金额</Desc>
+    </Arg>
+    <Arg>
+      <Name>cmpamt</Name>
+      <Type>java.lang.String</Type>
+      <Desc>比较金额</Desc>
+    </Arg>
+    <Arg>
+      <Name>ispoint</Name>
+      <Type>boolean</Type>
+      <Desc>是否为小数点,true 为有小数点，false为不含有小数点</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>4</Total>
+    <RET0>异常</RET0>
+    <RET1>交易金额小于比较金额</RET1>
+    <RET2>交易金额大于比较金额</RET2>
+    <RET3>交易金额等于比较金额</RET3>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_Amount.java</Path>
+</Component>

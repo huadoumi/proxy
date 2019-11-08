@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceArg>
+	
+  
+  <UUID>83C017EAEE734E20852E47B67433EB4C</UUID>
+	
+  
+  <InArg/>
+	
+  
+  <OutArg/>
+  <ServiceName>debugService</ServiceName>
+  <ServiceDesc>调试交易</ServiceDesc>
+  <JarName>afaProxy.debugService.jar</JarName>
+  <MainClass>afaProxy.debugService.TdebugService</MainClass>
+</ServiceArg>

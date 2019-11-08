@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>C5C690833E59B569A662028FA1043B1F</UUID>
+  <Target>tc.platform.P_String.P_IndexEquals</Target>
+  <Desp>字符串截取子串是否存在</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>字符串截取子串是否存在，比如字符串，“1112222”，比如截取1122，如果开始位置为1，最后位置为4，则为true，否则为false，异常出口为2</ToolTip>
+  <InArgs>
+    <Total>4</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>inStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>输入的字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>compareStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>要对比的子串</Desc>
+    </Arg>
+    <Arg>
+      <Name>start</Name>
+      <Type>int</Type>
+      <Desc>要截取的起始位，第一位为0，以此类推</Desc>
+    </Arg>
+    <Arg>
+      <Name>length</Name>
+      <Type>int</Type>
+      <Desc>要截取的长度</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>3</Total>
+    <RET0>不存在</RET0>
+    <RET1>存在</RET1>
+    <RET2>异常</RET2>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

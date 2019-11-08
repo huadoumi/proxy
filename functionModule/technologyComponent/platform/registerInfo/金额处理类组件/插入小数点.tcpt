@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>07619FC0F7576D7CC78E9EC10DEEE170</UUID>
+  <Target>tc.platform.P_Amount.insertDot</Target>
+  <Desp>插入小数点</Desp>
+  <Group>金额处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>对给定金额字符串中插入小数点,如果数字字符串中有小数点提示异常,position要大于等于0,如果等于0则只是在字符串后面追加一个"."</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>instr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>输入字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>position</Name>
+      <Type>int</Type>
+      <Desc>小数点位置</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>outstr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>插入小数点的字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>插入失败</RET0>
+    <RET1>插入成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_Amount.java</Path>
+</Component>

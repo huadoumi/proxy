@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>DA45A7DF4F39C138FC214C7A4CFF64F1</UUID>
+  <Target>tc.platform.P_String.subStr</Target>
+  <Desp>字符串截取</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>获取输入字符串的子串,取start到end-1的子串</ToolTip>
+  <InArgs>
+    <Total>3</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>inStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>输入字符串</Desc>
+    </Arg>
+    <Arg>
+      <Name>start</Name>
+      <Type>int</Type>
+      <Desc>开始位置</Desc>
+    </Arg>
+    <Arg>
+      <Name>end</Name>
+      <Type>int</Type>
+      <Desc>结束位置</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>outStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>截取后的字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

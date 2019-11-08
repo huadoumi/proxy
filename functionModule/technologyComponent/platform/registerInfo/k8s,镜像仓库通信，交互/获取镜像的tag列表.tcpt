@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>E660C782A8347656B0A06A3710121CF2</UUID>
+  <Target>tc.platform.k8s.P_Communication.P_getTagList</Target>
+  <Desp>获取镜像的tag列表</Desp>
+  <Group>k8s,镜像仓库通信，交互</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>获取镜像的tag列表</ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>imageName</Name>
+      <Type>java.lang.String</Type>
+      <Desc>镜像名字</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>respStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>响应json字符串</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/k8s/P_Communication.java</Path>
+</Component>

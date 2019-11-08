@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>EFB41B72BBA64A8CC69D132107F789CF</UUID>
+  <Target>tc.platform.P_String.haveHalfStr</Target>
+  <Desp>判断字符串是否有半角字符</Desp>
+  <Group>字符串处理类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>判断输入的字符串里面是否有半角字符串</ToolTip>
+  <InArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>inStr</Name>
+      <Type>java.lang.String</Type>
+      <Desc>源字符串</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>3</Total>
+    <RET0>失败</RET0>
+    <RET1>有半角字符</RET1>
+    <RET2>无半角字符</RET2>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_String.java</Path>
+</Component>

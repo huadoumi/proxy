@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>CA07DAD8AFF016059FC5704659EAAC13</UUID>
+  <Target>tc.platform.P_FTP.P_sftpPut</Target>
+  <Desp>使用openssh验证机制登陆上传文件</Desp>
+  <Group>FTP客户端组件类</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>支持使用openssh验证机制的系统，例如linux系统</ToolTip>
+  <InArgs>
+    <Total>5</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>url</Name>
+      <Type>java.lang.String</Type>
+      <Desc>连接地址例：username@hostname</Desc>
+    </Arg>
+    <Arg>
+      <Name>localFilePath</Name>
+      <Type>java.lang.String</Type>
+      <Desc>本地文件路径</Desc>
+    </Arg>
+    <Arg>
+      <Name>remotePath</Name>
+      <Type>java.lang.String</Type>
+      <Desc>远程文件目录</Desc>
+    </Arg>
+    <Arg>
+      <Name>remoteFileName</Name>
+      <Type>java.lang.String</Type>
+      <Desc>远程文件名</Desc>
+    </Arg>
+    <Arg>
+      <Name>config</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>覆盖配置</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_FTP.java</Path>
+</Component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>D0D5CA0E8F4C94155AD5CF6827DB4549</UUID>
+  <Target>tc.platform.P_SystemCall.systemCall</Target>
+  <Desp>系统调用</Desp>
+  <Group>系统调用类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>执行shell命令或windows可执行脚本。支持在命令中填入${afahome}来引用AFA4J的主目录。</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>cmd</Name>
+      <Type>java.lang.String</Type>
+      <Desc>命令</Desc>
+    </Arg>
+    <Arg>
+      <Name>argList</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaList</Type>
+      <Desc>参数列表</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_SystemCall.java</Path>
+</Component>

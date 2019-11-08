@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>83D61761E274A3010D7E14B5ABCCE1D3</UUID>
+  <Target>tc.platform.k8s.P_FileComponent.P_delete</Target>
+  <Desp>删除文件</Desp>
+  <Group>文件相关的操作</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>删除文件</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>path</Name>
+      <Type>java.lang.String</Type>
+      <Desc>文件完整路径</Desc>
+    </Arg>
+    <Arg>
+      <Name>deleteRoot</Name>
+      <Type>boolean</Type>
+      <Desc>如果此文件是目录，标识是否删除</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>0</Total>
+    <Type>0</Type>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/k8s/P_FileComponent.java</Path>
+</Component>

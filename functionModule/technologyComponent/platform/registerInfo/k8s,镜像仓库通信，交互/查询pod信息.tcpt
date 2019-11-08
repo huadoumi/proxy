@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>78609E463512109B04B02600AE559C78</UUID>
+  <Target>tc.platform.k8s.P_Communication.P_getPod</Target>
+  <Desp>查询pod信息</Desp>
+  <Group>k8s,镜像仓库通信，交互</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>查询pod信息</ToolTip>
+  <InArgs>
+    <Total>2</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>namespace</Name>
+      <Type>java.lang.String</Type>
+      <Desc>namespace</Desc>
+    </Arg>
+    <Arg>
+      <Name>serviceCode</Name>
+      <Type>java.lang.String</Type>
+      <Desc>serviceCode</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>pods</Name>
+      <Type>java.lang.String</Type>
+      <Desc>pod的信息</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/k8s/P_Communication.java</Path>
+</Component>

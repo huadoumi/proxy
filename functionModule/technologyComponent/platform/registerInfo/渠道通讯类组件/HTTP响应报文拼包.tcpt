@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Component>
+  <UUID>3CCC082DD9A9BF16CD712621FAE46D4F</UUID>
+  <Target>tc.platform.P_HttpCodec.packResponse</Target>
+  <Desp>HTTP响应报文拼包</Desp>
+  <Group>渠道通讯类组件</Group>
+  <Level>0</Level>
+  <Style>1</Style>
+  <Type>0</Type>
+  <AspectUsed>0</AspectUsed>
+  <ToolTip>字典headers可以为空，如果为空，则自动添加内容长度信息</ToolTip>
+  <InArgs>
+    <Total>5</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>status</Name>
+      <Type>java.lang.String</Type>
+      <Desc>响应状态代码 ，如"200","502"</Desc>
+    </Arg>
+    <Arg>
+      <Name>headers</Name>
+      <Type>cn.com.agree.afa.svc.javaengine.context.JavaDict</Type>
+      <Desc>头部信息字典</Desc>
+    </Arg>
+    <Arg>
+      <Name>content</Name>
+      <Type>java.lang.String</Type>
+      <Desc>报文内容</Desc>
+    </Arg>
+    <Arg>
+      <Name>encoding</Name>
+      <Type>java.lang.String</Type>
+      <Desc>编码,默认使用UTF-8</Desc>
+    </Arg>
+    <Arg>
+      <Name>version</Name>
+      <Type>java.lang.String</Type>
+      <Desc>http报文版本</Desc>
+    </Arg>
+  </InArgs>
+  <OutArgs>
+    <Total>1</Total>
+    <Type>0</Type>
+    <Arg>
+      <Name>response</Name>
+      <Type>byte[]</Type>
+      <Desc>HTTP响应报文，请设置到 __RSP__["__SNDPCK__"]，以便返回给客户端。</Desc>
+    </Arg>
+  </OutArgs>
+  <Logic>
+    <Total>2</Total>
+    <RET0>失败</RET0>
+    <RET1>成功</RET1>
+  </Logic>
+  <Path>/functionModule/technologyComponent/platform/componentSourceCode/tc/platform/P_HttpCodec.java</Path>
+</Component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Flag>
+	
+  
+  <Version>1.0</Version>
+	
+  
+  <Name>proxy</Name>
+	
+  
+  <Desp>代理，和k8s集群内的交互或者和镜像仓库交互</Desp>
+	
+  
+  <Author>null</Author>
+	
+  
+  <CreateTime>2018年11月24日 14:32:58</CreateTime>
+	
+  
+  <DefaultLogLevel>4</DefaultLogLevel>
+  <Servitization>true</Servitization>
+</Flag>
